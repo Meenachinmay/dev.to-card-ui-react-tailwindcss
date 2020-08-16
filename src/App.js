@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DevCard from './components/dev-card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <DevCard title="Fastify routes" />
+     <DevCard title="My 30 days github challange" />
+     <DevCard title="Tell me if you can do it"/>
+     <DevCard title="Why i love dev.to" />
     </div>
   );
 }
