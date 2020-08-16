@@ -4,10 +4,10 @@ import DevCard from './components/dev-card';
 function App() {
   return (
     <div className="App">
-     <DevCard title="Fastify routes" />
-     <DevCard title="My 30 days github challange" />
-     <DevCard title="Tell me if you can do it"/>
-     <DevCard title="Why i love dev.to" />
+     <DevCard reactions_count="34" title="Fastify routes" />
+     <DevCard reactions_count="333" title="My 30 days github challange" />
+     <DevCard reactions_count="232" title="Tell me if you can do it"/>
+     <DevCard reactions_count="11" title="Why i love dev.to" />
     </div>
   );
 }

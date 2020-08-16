@@ -2,7 +2,7 @@ import React from 'react';
 import Heart from '../assets/heart.svg';
 import Comment from '../assets/comment.svg';
 
-const DevCard = ({title }) => {
+const DevCard = ({title, reactions_count}) => {
     return (
         <div className="container mx-auto p-3 rounded bg-white w-1/3 mt-3 border border-gray-300">
             <div className="flex items-center mb-2">
@@ -28,7 +28,7 @@ const DevCard = ({title }) => {
                     <div className="flex">
                         <p className="flex items-center text-gray-900 font-light text-sm px-2 py-1 hover:bg-gray-200 rounded cursor-pointer">
                             <img className="h-4 w-4 mr-2" src={Heart} />
-                            333 reactions
+                            {reactions_count} reactions
                         </p>
                         <p className="flex items-center text-gray-900 font-light text-sm px-2 py-1 hover:bg-gray-200 rounded cursor-pointer">
                             <img className="h-4 w-4 mr-2" src={Comment} />
